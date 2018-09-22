@@ -1,4 +1,5 @@
 <span class="box" [class.checked]="checked" (click)="game.reveal(x,y)"
+(contextmenu)="false"
 [ngClass] = "{'bomb': hasBomb && game.lost, 'section-disabled': game.lost}" >
 	<span *ngIf="checked">
 		&nbsp;{{neighbors}}&nbsp;

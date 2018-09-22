@@ -8,14 +8,13 @@ export class GameService {
 	public yCount: number;
 	public area: Box[][];
 	public lost: boolean = false;
-
+	
 	constructor () {
 		this.initialize();
 	}
 
 	public reveal (x: number, y: number) {
 		if (this.area[y][x].hasBomb) {
-			this.area[y][x].checked = false;
 			this.lost = true;
 		}
 		else {
