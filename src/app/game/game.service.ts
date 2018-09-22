@@ -15,6 +15,7 @@ export class GameService {
 
 	public reveal (x: number, y: number) {
 		if (this.area[y][x].hasBomb) {
+			this.area[y][x].checked = false;
 			this.lost = true;
 		}
 		else {

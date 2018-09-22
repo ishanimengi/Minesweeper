@@ -19,5 +19,15 @@
 }
 
 .bomb{
-    background: red;
+    background: url("../../assets/bomb-solid.svg");
+    height: 30px;
+    width: 30px;
+}
+
+.section-disabled{
+    pointer-events: none;
+}
+
+.flag {
+    background: url("../../assets/flag-solid.svg");
 }

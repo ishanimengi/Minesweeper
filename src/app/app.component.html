@@ -1,5 +1,5 @@
 <div class="info-container">
-	<p *ngIf = "!game.lost">There are {{game.bombsCount}} bombs</p>
+	<p *ngIf = "!game.lost">There are {{game.bombsCount}} mines</p>
 	<p *ngIf = "!game.lost" class="game-status">Game In Progress</p>
 	<p *ngIf = "game.lost" class="game-status">Oops! You clicked on a mine. <a (click) = "game.initialize()">Click Here</a> to restart game</p>
 </div>
