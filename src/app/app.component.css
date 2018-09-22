@@ -1,0 +1,21 @@
+.info-container{
+    background: #19a0d9;
+    padding: 7px;
+    text-align: center;
+    color: #fff;
+    min-height: 50px;
+    border-radius: 7px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info-container a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.game-status {
+    font-size: 22px;
+}
+

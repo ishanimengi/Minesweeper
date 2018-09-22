@@ -1,0 +1,23 @@
+.box {
+    padding: 5px;
+    display: inline-block;
+    cursor: pointer;
+    background: #7b7b7b;
+    border: 1px solid #fff;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.box.checked {
+    background: #2e2829;
+}
+
+.bomb{
+    background: red;
+}
